@@ -28,7 +28,7 @@ VIDs with special characters (hyphen, underscore) and other De-DNS TLDs (".eth",
 eligibile-airdropped address preserve the ownership of its testnet ANS label on the mainnet launch.
 
 ## Note
-This is a ***testnet*** contract, the implementation of PoR and the existing of testnet $DLT are both for experimental purpose.
+This is a ***testnet*** contract, the implementation of PoR and the existence of testnet `$DLT` are both for experimental purpose.
 
 ## License 
 This project is licensed under the MIT license.

@@ -1,0 +1,29 @@
+{
+  "name": "ans-airdrop",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "scripts for ANS testnet-airdrop",
+  "main": "./src/airdrop-whitelisting.js",
+  "scripts": {
+    "start": "node ./src/airdrop-whitelisting.js",
+    "mint": "node ./src/labels-minting.js",
+    "airdrop": "node ./src/airdrop-distribution.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentldotland/ANS-Testnet-Airdrop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/decentldotland/ANS-Testnet-Airdrop/issues"
+  },
+  "homepage": "https://github.com/decentldotland/ANS-Testnet-Airdrop#readme",
+  "author": "charmful0x",
+  "license": "MIT",
+  "dependencies": {
+    "arweave": "^1.10.23",
+    "chalk": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "redstone-smartweave": "^0.4.29",
+    "smartweave": "^0.4.46"
+  }
+}
